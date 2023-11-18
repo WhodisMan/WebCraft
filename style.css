@@ -13,6 +13,37 @@ body{
 
 }
 
+.sec{
+  background-color: black;
+  display: grid;
+  grid-auto-flow: column;
+  text-align: center;
+  color: white;
+  height:700px;
+}
+
+#prfl{
+  height:50%;
+  margin-left: 25%;
+  margin-top: 80px;
+  border-radius: 75px;
+
+}
+.info{
+  margin-top: 80px;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.info h1{
+  font-size: 50px;
+
+}
+
+.more{
+  text-align: left;
+}
+
 .container{
   padding: 10px 10%;
 
@@ -64,6 +95,10 @@ nav ul li a:hover::after{
 
 .header-text h1{
   font-size: 60px;
+}
+
+#Links{
+  position: fixed;
 }
 
 /* Serivice */
@@ -122,12 +157,14 @@ button:hover{
 
 .wrapper{
     color: blue;
-    position:absolute;
+    position:fixed;
     bottom: 0;
-  display: inline-flex;
+    right:0;
+  display: flex;
+  flex-direction: column;
 }
 .wrapper .icon{
-  margin: 0 20px;
+  margin: 10px 20px;
   text-align: center;
   cursor: pointer;
   display: flex;
