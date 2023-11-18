@@ -13,7 +13,14 @@ body{
   background-image: url(images/bg.png);
   background-size: cover;
   background-position: top;
+}
 
+#test{
+  position: fixed;
+}
+#test ul{
+  position: fixed;
+  right: 15px;
 }
 
 .sec{
