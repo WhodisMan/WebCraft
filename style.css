@@ -1,9 +1,20 @@
 body{
-    background-image: url('bg.jpg');
+    background: #080808;
+    color: #fff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
 }
+#header{
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/bg.png);
+  background-size: cover;
+  background-position: center;
+
+}
+
 #tabs ul{
+  color:white ;
     text-align: right;
     
 }
@@ -17,6 +28,7 @@ body{
     margin-left: 5%;
 }
 
+
 button{
     height: 30px;
     font-size: 25px;
@@ -27,6 +39,8 @@ button{
 button:hover{
     border-bottom: rgb(155, 35, 155) solid;
 }
+
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
@@ -36,6 +50,7 @@ button:hover{
 }
 
 .wrapper{
+    color: blue;
     position:absolute;
     bottom: 0;
   display: inline-flex;
